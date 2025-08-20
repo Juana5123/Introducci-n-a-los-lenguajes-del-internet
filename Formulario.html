@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Formulario de Domicilios de Comidas</title>
+</head>
+<body>
+ 
+    <h1>Formulario de Pedido a Domicilio</h1>
+ 
+    <section>
+<h2>Información del Cliente</h2>
+<label for="nombre">Nombre Completo:</label><br>
+<input type="text" id="nombre" name="nombre"><br><br>
+ 
+        <label for="direccion">Dirección de Entrega:</label><br>
+<input type="text" id="direccion" name="direccion"><br><br>
+ 
+        <label for="telefono">Teléfono de Contacto:</label><br>
+<input type="tel" id="telefono" name="telefono"><br><br>
+</section>
+ 
+    <section>
+<h2>Detalles del Pedido</h2>
+ 
+        <label for="comida">Seleccione su comida:</label><br>
+<input list="comidas" id="comida" name="comida">
+<datalist id="comidas">
+<option value="Hamburguesa">
+<option value="Pizza">
+<option value="Tacos">
+<option value="Ensalada">
+<option value="Sushi">
+</datalist><br><br>
+ 
+        <label for="cantidad">Cantidad:</label><br>
+<input type="number" id="cantidad" name="cantidad" min="1" value="1"><br><br>
+ 
+        <label for="metodo_pago">Método de Pago:</label><br>
+<input list="pagos" id="metodo_pago" name="metodo_pago">
+<datalist id="pagos">
+<option value="Efectivo">
+<option value="Tarjeta">
+<option value="Transferencia">
+</datalist><br><br>
+</section>
+ 
+    <section>
+<h2>Confirmación</h2>
+ 
+        <label for="confirmacion">¿Confirmar pedido?</label><br>
+<input type="checkbox" id="confirmacion" name="confirmacion"><br><br>
+ 
+        <input type="submit" value="Enviar Pedido">
+</section>
+ 
+</body>
+</html>
