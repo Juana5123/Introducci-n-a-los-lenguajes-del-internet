@@ -3,7 +3,7 @@
     width: 100%; } 
 
 .No_Metales_Reactivos{
-    background-color: #FD0811;
+    background-color: #f83d43;
     border: 1px solid black;
     padding: 5px;
     width: 65px;
@@ -12,7 +12,7 @@
 .No_Metales_Reactivos:hover {  
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    background-color: #FD0811;
+    background-color: #f83d43;
      color: white; 
 }
 .No_Metales_Reactivos .symbol{
@@ -31,7 +31,7 @@
 }
 
 .Gases_Nobles{
-    background-color: #00A0C4;
+    background-color: #83e8ff;
     border: 1px solid black;
     padding: 5px;
     width: 65px;
@@ -40,7 +40,7 @@
 .Gases_Nobles:hover {  
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    background-color: #00A0C4;
+    background-color: #83e8ff;
      color: white; 
 }
 .Gases_Nobles .symbol{
@@ -59,7 +59,7 @@
 }
 
 .Metales_Alcalinos{
-    background-color: #FFFF00;
+    background-color: #fafa76;
     border: 1px solid black;
     padding: 5px;
     width: 65px;
@@ -68,7 +68,7 @@
 .Metales_Alcalinos:hover {  
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    background-color: #FFFF00;
+    background-color: #fafa76;
      color: white; 
 }
 .Metales_Alcalinos .symbol{
@@ -86,7 +86,7 @@
 }
 
 .Metales_Alcalinoterreos{
-    background-color: #FF9000;
+    background-color: #ffb24c;
     border: 1px solid black;
     padding: 5px;
     width: 65px;
@@ -95,7 +95,7 @@
 .Metales_Alcalinoterreos:hover {  
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    background-color: #FF9000;
+    background-color: #ffb24c;
      color: white; 
 }
 .Metales_Alcalinoterreos .symbol{
@@ -142,7 +142,7 @@
 }
 
 .Metaloides{
-    background-color: #006FD0;
+    background-color:#2e92eb;
     border: 1px solid black;
     padding: 5px;
     width: 65px;
@@ -151,7 +151,7 @@
 .Metaloides:hover {  
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    background-color: #006FD0;
+    background-color: #2e92eb;
      color: white; 
 }
 .Metaloides .symbol{
@@ -170,7 +170,7 @@
 }
 
 .Metales_Transicionales{
-    background-color: #11C800;
+    background-color: #9afa92;
     border: 1px solid black;
     padding: 5px;
     width: 65px;
@@ -179,7 +179,7 @@
 .Metales_Transicionales:hover {  
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    background-color: #11C800;
+    background-color:  #9afa92;
      color: white; 
 }
 .Metales_Transicionales .symbol{
@@ -198,7 +198,7 @@
 }
 
 .Actinoides{
-    background-color: #C7007D;
+    background-color: #ff8ad4;
     border: 1px solid black;
     padding: 5px;
     width: 65px;
@@ -207,7 +207,7 @@
 .Actinoides:hover {  
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    background-color: #C7007D;
+    background-color: #ff8ad4;
      color: white; 
 }
 .Actinoides .symbol{
@@ -254,7 +254,7 @@
 }
 
 .Lantanidos{
-    background-color: #6000A0;
+    background-color: #cf86ff;
     border: 1px solid black;
     padding: 5px;
     width: 65px;
@@ -263,7 +263,7 @@
 .Lantanidos:hover {  
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    background-color: #6000A0;
+    background-color: #cf86ff;
      color: white; 
 }
 .Lantanidos .symbol{
