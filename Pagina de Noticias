@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina de noticias</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+     <header>
+        <h1>Mi Página de Noticias</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Noticias</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="intro">
+            <p>Bienvenido a mi portal de noticias.</p>
+           <p>Aquí encontrarás lo más reciente en tecnología, moda y tendencias.</p>
+        </section>
+        <section class="tabla-noticias">
+            <h2>Últimas Noticias</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Título</th>
+                        <th>Fecha</th>
+                        <th>Fuente</th>
+                    </tr>
+                </thead>
+                    <tr>
+                        <td>Lanzamiento del nuevo Phone 17</td>
+                        <td>05/09/2025</td>
+                        <td>TechWorld</td>
+                    </tr>
+                    <tr>
+                        <td>Nueva colección de moda sorprende en pasarela</td>
+                        <td>04/09/2025</td>
+                        <td>Fashion Daily</td>
+                    </tr>
+                    <tr>
+                        <td>Tendencias digitales marcan el futuro de las redes sociales</td>
+                        <td>03/09/2025</td>
+                        <td>Trend Now</td>
+                    </tr>
+            </table>
+        </section>
+        <section class="cards">
+            <div class="card">
+                <img src="https://thfvnext.bing.com/th?id=OIF.85n6KMY1JwHYp5%2fN0HJ4ow&cb=thfvnextucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Noticia 1">
+                <p>El nuevo Phone 17 revoluciona el mercado con su innovador diseño y funciones avanzadas.</p>
+            </div>
+            <div class="card">
+                <img src="https://intelectual.org/wp-content/uploads/modelo-moda-pasarela-vestido.webp" alt="Noticia 2">
+                <p>Las últimas tendencias en moda sorprenden por su mezcla de colores y estilos únicos.</p>
+            </div>
+            <div class="card">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.upNnIStlrIw5yyTf9dmHEQHaEK?cb=thfvnextucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Noticia 3">
+                <p>El mundo digital se transforma con nuevas tendencias en redes sociales y plataformas emergentes.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mi Página de Noticias | Síguenos en redes sociales</p>
+    </footer>
+</body>
+</html>
