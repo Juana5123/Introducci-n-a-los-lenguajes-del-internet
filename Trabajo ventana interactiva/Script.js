@@ -10,8 +10,9 @@ buttonCerrar.addEventListener("click", function(){
     overlay.classList.remove("visible");
 });
 
-overlay.addEventListener("click", function(e){
+overlay.addEventListener("click", function(){
     if(e.target === overlay){
         overlay.classList.remove("visible");
     }
 });
+
