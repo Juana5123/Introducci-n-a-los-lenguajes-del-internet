@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventana Interactiva</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="Script.js" defer></script>
+</head>
+<body>
+    <div class="contenedor">
+        <h2 class="titulo">Bienvenido a mi pagina</h2>
+        <p>Antes de continuar, por favor completa tu registro y acepta los terminos.</p>
+        
+        <!-- Caja de registro -->
+        <div class="registro">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre">
+            
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo">
+            
+            <label for="clave">Contraseña:</label>
+            <input type="password" id="clave">
+            
+            <button id="abrirModalBtn">Ver Aviso</button>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modalOverlay" class="overlay">
+        <div class="modal">
+            <h3>Aviso Importante</h3>
+            <p>
+                Recuerda que aceptas el tratamiento de datos  
+                gracias por confiar en nosotros
+            </p>
+            <input type="checkbox" id="aviso">
+            <label for="aviso">He leido y acepto los teminos y condiciones</label>
+            <br><br>
+            <button id="cerrarModalBtn">Aceptar</button>
+        </div>
+    </div>
+</body>
+</html>
